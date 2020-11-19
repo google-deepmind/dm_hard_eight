@@ -298,7 +298,7 @@ def load_from_disk(path, settings):
       '-noaudio',
       # Other command-line flags.
       '--logtostderr',
-      '--server_type=GRPC',
+      '--server_type=DM_ENV_RPC',
       '--uri_address=[::]:{}'.format(port),
   ]
 
